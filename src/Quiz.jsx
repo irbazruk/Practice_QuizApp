@@ -3,7 +3,7 @@ import {data} from './data'
 import './style.css'
 
 export default function Quiz() {
-    let [option, setoption] = useState('')
+    let [option, setoption] = useState('');
     let [finish, setFinish] = useState(false);
     let [index, setindex] = useState(0);
     let [score, setScore] = useState(0);
